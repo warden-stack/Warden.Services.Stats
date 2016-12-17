@@ -4,10 +4,10 @@ using RawRabbit;
 using RawRabbit.vNext;
 using RawRabbit.Configuration;
 using Warden.Common.Events;
-using Warden.Common.Events.Wardens;
 using Warden.Common.Nancy;
 using Warden.Common.Extensions;
 using Warden.Services.Stats.Handlers.Events;
+using Warden.Services.WardenChecks.Shared.Events;
 
 namespace Warden.Services.Stats.Framework
 {
