@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Microsoft.Extensions.Configuration;
 using RawRabbit.Configuration;
-using Warden.Common.Events;
+using Warden.Messages.Events;
 using Warden.Common.Nancy;
 using Warden.Common.Nancy.Serialization;
 using Warden.Common.Extensions;
@@ -11,9 +11,10 @@ using Warden.Common.Security;
 using Newtonsoft.Json;
 using Nancy.Bootstrapper;
 using Nancy;
+using Nancy.Bootstrappers.Autofac;
 using Warden.Common.Handlers;
 using System.Reflection;
-using Warden.Common.Commands;
+using Warden.Messages.Commands;
 using NLog;
 
 namespace Warden.Services.Stats.Framework

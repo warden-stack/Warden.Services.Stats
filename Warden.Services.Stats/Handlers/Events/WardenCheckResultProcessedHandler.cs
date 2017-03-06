@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Warden.Common.Events;
-using Warden.Services.WardenChecks.Shared.Events;
+using Warden.Messages.Events;
+using Warden.Messages.Events.WardenChecks;
 
 namespace Warden.Services.Stats.Handlers.Events
 {

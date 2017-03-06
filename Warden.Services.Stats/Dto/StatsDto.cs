@@ -1,4 +1,4 @@
-﻿namespace Warden.Services.Stats.Shared.Dto
+﻿namespace Warden.Services.Stats.Dto
 {
     public class StatsDto
     {

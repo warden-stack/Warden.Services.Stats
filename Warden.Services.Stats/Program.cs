@@ -1,6 +1,6 @@
 ﻿using Warden.Common.Host;
 using Warden.Services.Stats.Framework;
-using Warden.Services.WardenChecks.Shared.Events;
+using Warden.Messages.Events.WardenChecks;
 
 namespace Warden.Services.Stats
 {
